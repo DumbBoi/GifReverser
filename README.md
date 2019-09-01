@@ -26,7 +26,8 @@ Here are a few links that might be useful to understand GIF structure:
 Other methods decode the GIF for a reason. A frame in a GIF may or may not be completely filled, meaning that a frame might rely on what was displayed on the previous frame. A frame might also require the background to be completely empty. Simply inverting the sequence of the frames does not take this into account.
 
 <p align = 'center'>
-  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/test6.gif'/>
-  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result1.gif'/>  
-  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result2.gif'/>
+  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/test6.gif' width = 100 height = 100>
+  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result1.gif' width = 100 height = 100>  
+  <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result2.gif' width = 100 height = 100>
+  (a) Original Image (b) Reversed with decoding (c) Reversed by simple swaping
 </p>
