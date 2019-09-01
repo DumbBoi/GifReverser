@@ -29,5 +29,7 @@ Other methods decode the GIF for a reason. A frame in a GIF may or may not be co
   <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/test6.gif' width = 100 height = 100>
   <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result1.gif' width = 100 height = 100>  
   <image src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/result2.gif' width = 100 height = 100>
+  <p>
   (a) Original Image (b) Reversed with decoding (c) Reversed by simple swaping
+  </p>
 </p>
