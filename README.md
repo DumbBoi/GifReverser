@@ -14,9 +14,10 @@ I've seen a few sites that reverse GIFs by decoding the file. I wanted to see if
 ### How?
 A GIF is divided into multiple chunks, with the last chunks representing the frames in the GIF. These chuncks start with bytes '''21 F9''' and end with a '''00'''. I simply copied all the chunks from the orignal GIF, reversed the image chunks (frames) and returned the binary string.
 <p align = 'center'>
-![fig 1](https://github.com/DumbBoi/GifReverser/blob/master/resources/GIF%20Guide.png)
+  <img src = 'https://github.com/DumbBoi/GifReverser/blob/master/resources/GIF%20Guide.png'>
 </p>
 Here are a few links that might be useful to understand GIF structure:
+
 -[What's In A GIF](http://giflib.sourceforge.net/whatsinagif/bits_and_bytes.html)
 
 -[LZW Example](https://www.youtube.com/watch?v=8uFqfZOiwMc)
