@@ -15,14 +15,14 @@
   <body>
     <div class="header">
       <h1>GIF Reverser</h1>
-      <span>This is a slightly different method of reversing gifs. This might not work properly for every gif.</span>
-      <span><a href = 'https://github.com/DumbBoi/GifReverser'>For more details</a>
+      <p>This is a slightly different method of reversing gifs. This might not work properly for every gif.</p>
+      <p><a href = 'https://github.com/DumbBoi/GifReverser'>For more details</a></p>
     </div>
 
     <input type='file' onchange="readURL(this);" accept="image/gif"/>
-      <div class="img">
-        <img id="org" src="#" alt="Original" />
-        <img id="rev" src="#" alt="Reversed" />
+      <div class="img" display = "flex" align = 'center'>
+        <img id="org" src="#" style = 'margin: 20px' alt="Original" />
+        <img id="rev" src="#" style = 'margin: 20px' alt="Reversed" />
       </div>
 
   </body>
