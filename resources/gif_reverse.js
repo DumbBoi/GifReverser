@@ -52,3 +52,23 @@ function invert_gif(gif)
   res = res.join('');
   return res;
 };
+function readURL(input)
+{
+  if (input.files && input.files[0])
+  {
+    var reader = new FileReader();
+    reader.onload = function (e)
+    {
+      $('#org')
+        .attr('src', "data:image/gif;base64," + btoa(e.explicitOriginalTarget.result))
+        .width(150)
+        .height(200);
+      res = invert_gif(e.explicitOriginalTarget.result);
+      $('#rev')
+        .attr('src', "data:image/gif;base64," + btoa(res))
+        .width(150)
+        .height(200);
+    };
+    reader.readAsBinaryString(input.files[0]);
+  }
+}
